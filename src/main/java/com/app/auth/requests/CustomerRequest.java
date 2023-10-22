@@ -1,11 +1,12 @@
-package com.app.auth.models.requests;
+package com.app.auth.requests;
 
 import com.app.auth.models.entities.Customer;
-import jakarta.persistence.Column;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
 import lombok.Builder;
 import lombok.Data;
+
+import javax.persistence.Column;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Data
 @Builder
