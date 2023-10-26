@@ -37,7 +37,6 @@ public class CustomerRequest {
                 .emailAddress(this.emailAddress)
                 .firstName(this.firstName)
                 .lastName(this.lastName)
-                .password(this.password)
                 .build();
     }
 }
