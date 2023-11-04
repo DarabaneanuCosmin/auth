@@ -22,6 +22,11 @@ public class Customer {
     @NotBlank(message = "Email Address must be >=1 characters")
     @Size(min = 1, max = 255)
     private String emailAddress;
+
+    @NotBlank(message = "Username must not be empty")
+    @Size(min = 1)
+    private String username;
+
     @NotBlank(message = "First Name must be between 1 to 100 characters")
     @Size(min = 1, max = 255)
     private String firstName;
